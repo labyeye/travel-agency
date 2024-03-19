@@ -78,14 +78,14 @@
       data-collapse="medium"
       data-animation="default"
       data-duration="400"
-      data-doc-height="1"
+      data-w-id="436cb2e2-12df-b291-5268-da919d749944"
       data-easing="ease"
       data-easing2="ease"
       role="banner"
       class="navbar w-nav"
     >
       <div class="conatiner navbar_container">
-        <a href="/" class="brand w-nav-brand"
+        <a href="/" aria-current="page" class="w-nav-brand w--current"
           ><img
             src="https://assets.website-files.com/5ed1cf34bf802c5f339f8167/5ed470098a3127c849761c7a_TravelTell_White_Logo.png"
             width="111"
@@ -108,6 +108,7 @@
             "
             class="dark-logo on-home-page"
         /></a>
+
         <div class="right_side_navbar">
           <nav role="navigation" class="nav-menu w-nav-menu">
             <div
@@ -124,20 +125,18 @@
                 <a
                   href="/packages.html"
                   class="nav_link dropdown w-inline-block"
+                  ><div class="nav_link_text">Packages</div></a
+                ><a href="#" class="nav_link dropdown w-inline-block"
+                  ><div class="nav_link_text">Places</div></a
                 >
-                  <div class="nav_link_text">Packages</div> </a
-                ><a href="/places" class="nav_link dropdown w-inline-block">
-                  <div class="nav_link_text">Places</div>
-                </a>
               </nav>
             </div>
-            <a href="/blog" class="nav_link mobile-nav w-nav-link">Blog</a
-            ><a href="/places" class="nav_link mobile-nav w-nav-link">Places</a
-            ><a href="/contact" class="nav_link w-nav-link">Contact</a>
-            <a href="/contact" class="nav_link w-nav-link">About</a
-            ><a href="/sign-in" class="nav_link mobile-nav w-nav-link"
-              >Sign In</a
-            ><a href="/sign-up" class="button mobile-menu w-button"
+            <a href="/packages.html" class="nav_link mobile-nav w-nav-link"
+              >Packages</a
+            ><a href="#" class="nav_link mobile-nav w-nav-link">Places</a
+            ><a href="#" class="nav_link w-nav-link">Contact</a
+            ><a href="#" class="nav_link w-nav-link">About</a
+            ><a href="#" class="button mobile-menu w-button"
               >Become a Traveller</a
             >
           </nav>
@@ -155,17 +154,10 @@
             />
           </div>
         </div>
-        <div class="menu-button w-nav-button">
-          <img
-            src="https://assets.website-files.com/5ed1cf34bf802c5f339f8167/5ee748ec18269a218140b184_hamburger.svg"
-            width="30"
-            alt=""
-          />
-        </div>
       </div>
     </div>
     <div class="section place">
-      <div class="container flex_centered">
+      <div class="container flex_centered" style="margin-top: 45px">
         <h1 class="align_center">Honeymoon Package</h1>
         <h5 class="location_short_description">Port Blair, Havelock</h5>
         <!-- <div class="place_hero_video_wrap">
@@ -201,91 +193,86 @@
             "
             class="place-hero-image"
           ></div> -->
-        </div>
-        <div class="fold_2">
-          <div class="sticky-nav-contain time-and-weather-contain">
-            <div class="sticky weather-and-time">
-              <div>
-                <div
-                  data-w-id="6f83d374-2686-0329-8ac3-fce284127b5f"
-                  style="
-                    background-image: url('https://media.istockphoto.com/id/942306586/photo/neil-island-at-andaman-and-nicobar-archipelago.jpg?s=612x612&w=0&k=20&c=QmAz3rgCQ4GHoFap-LJ-ooswzeWaIfkJJWj9XIvUTlw=');
-                    opacity: 0;
-                  "
-                  class="weather_time_display"
-                >
-                </div>
-                <div
-                  data-w-id="27b0eb4f-298c-48bd-4585-c5e24490d776"
-                  style="
-                    background-image: url('https://t4.ftcdn.net/jpg/04/81/10/89/360_F_481108988_DxeHXbdfBlQhb9Ydak7HzNKBpEgVzDA2.jpg');
-                    opacity: 0;
-                  "
-                  class="weather_time_display current-time"
-                >
-                </div>
-              </div>
+      </div>
+      <div class="fold_2">
+        <div class="sticky-nav-contain time-and-weather-contain">
+          <div class="sticky weather-and-time">
+            <div>
+              <div
+                data-w-id="6f83d374-2686-0329-8ac3-fce284127b5f"
+                style="
+                  background-image: url('https://media.istockphoto.com/id/942306586/photo/neil-island-at-andaman-and-nicobar-archipelago.jpg?s=612x612&w=0&k=20&c=QmAz3rgCQ4GHoFap-LJ-ooswzeWaIfkJJWj9XIvUTlw=');
+                  opacity: 0;
+                "
+                class="weather_time_display"
+              ></div>
+              <div
+                data-w-id="27b0eb4f-298c-48bd-4585-c5e24490d776"
+                style="
+                  background-image: url('https://t4.ftcdn.net/jpg/04/81/10/89/360_F_481108988_DxeHXbdfBlQhb9Ydak7HzNKBpEgVzDA2.jpg');
+                  opacity: 0;
+                "
+                class="weather_time_display current-time"
+              ></div>
             </div>
           </div>
-          <div class="place-things-to-do">
-            <div
-              data-w-id="1a003498-3d29-2cf4-ee7f-e102fb297a13"
-              style="opacity: 0"
-              class="w-richtext"
-            >
-              <h3>Top things to do in Port Blair</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est
-                laborum.<br /><br />Sed ut perspiciatis unde omnis iste natus
-                error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-                quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                fugit, sed quia consequuntur magni dolores eos qui ratione
-                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
-                non numquam eius modi tempora incidunt ut labore et dolore
-                magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-                quis nostrum exercitationem ullam corporis suscipit laboriosam,
-                nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
-                iure reprehenderit qui in ea voluptate velit esse quam nihil
-                molestiae consequatur, vel illum qui dolorem eum fugiat quo
-                voluptas nulla.
-              </p>
-              <p>‍</p>
-              <h3>Top things to do in Havelock</h3>
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore,
-                cum soluta nobis est eligendi optio cumque nihil impedit quo
-                minus id quod maxime placeat facere possimus, omnis voluptas
-                assumenda est, omnis dolor repellendus. Temporibus autem
-                quibusdam et aut officiis debitis aut rerum necessitatibus saepe
-                eveniet ut et voluptates repudiandae sint et molestiae non
-                recusandae. Itaque earum rerum hic tenetur a sapiente delectus,
-                ut aut reiciendis voluptatibus maiores alias consequatur aut
-                perferendis doloribus asperiores repellat.
-              </p>
-            </div>
+        </div>
+        <div class="place-things-to-do">
+          <div
+            data-w-id="1a003498-3d29-2cf4-ee7f-e102fb297a13"
+            style="opacity: 0"
+            class="w-richtext"
+          >
+            <h3>Top things to do in Port Blair</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br />Sed
+              ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non numquam eius modi tempora incidunt ut labore
+              et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+              veniam, quis nostrum exercitationem ullam corporis suscipit
+              laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+              vel eum iure reprehenderit qui in ea voluptate velit esse quam
+              nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+              voluptas nulla.
+            </p>
+            <h3>Top things to do in Havelock</h3>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique sunt in culpa qui officia deserunt mollitia
+              animi, id est laborum et dolorum fuga. Et harum quidem rerum
+              facilis est et expedita distinctio. Nam libero tempore, cum soluta
+              nobis est eligendi optio cumque nihil impedit quo minus id quod
+              maxime placeat facere possimus, omnis voluptas assumenda est,
+              omnis dolor repellendus. Temporibus autem quibusdam et aut
+              officiis debitis aut rerum necessitatibus saepe eveniet ut et
+              voluptates repudiandae sint et molestiae non recusandae. Itaque
+              earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+              voluptatibus maiores alias consequatur aut perferendis doloribus
+              asperiores repellat.
+            </p>
           </div>
         </div>
       </div>
-      <img
-        src="https://assets.website-files.com/5ed1cf34bf802c5f339f8167/5ed719559d85627f1a1f8492_travel%20Tell%20stencil%202.svg"
-        alt=""
-        class="confetti_hero_svg places-template"
-      />
     </div>
+    <img
+      src="https://assets.website-files.com/5ed1cf34bf802c5f339f8167/5ed719559d85627f1a1f8492_travel%20Tell%20stencil%202.svg"
+      alt=""
+      class="confetti_hero_svg places-template"
+    />
     <div class="section place-slider">
       <div
         data-w-id="462ad858-7084-0f93-54d2-0bce49c38633"
@@ -326,10 +313,10 @@
               class="tab-link place w-inline-block w-tab-link"
               ><div>Day 4</div></a
             ><a
-            data-w-tab="Tab 5"
-            class="tab-link place w-inline-block w-tab-link"
-            ><div>Day 5</div></a
-          >
+              data-w-tab="Tab 5"
+              class="tab-link place w-inline-block w-tab-link"
+              ><div>Day 5</div></a
+            >
           </div>
           <div class="place-tabs-content w-tab-content">
             <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
@@ -338,60 +325,157 @@
                 style="opacity: 0"
                 class="w-richtext"
               >
-                <h3>AIRPORT PICKUP LATER VISIT CELLULAR JAIL AND CHIDIATAPU SUNSET TRIP + COMPLIMENTARY HONEYMOON CAKE</h3>
+                <h3>
+                  AIRPORT PICKUP LATER VISIT CELLULAR JAIL AND CHIDIATAPU SUNSET
+                  TRIP + COMPLIMENTARY HONEYMOON CAKE
+                </h3>
                 <p>
-                    Arrive at Port Blair in the morning/afternoon by flight and our representative will be waiting outside holding a placard with your name on it. You will then be taken to your hotel where you rest and relax. 
-                    <br><br>
-                    Later in the afternoon, we will first visit the National memorial. Cellular Jail is known for its unique jail architecture where Indian freedom fighters faced a lot of punishments from the Britishers. The struggle for Indian freedom and life of Indian freedom fighters can be learned when at this historic place.
-                    <br><br>
-                    Later we being our journey to the best sunset point in the Andaman archipelago, <a href="https://www.experienceandamans.com/andaman-tourism/port-blair/places/chidiatapu" target="_blank">Chidiatapu</a>. Explore the beauty of this amazing destination on the first day of your trip in the Andaman Islands. Chidiatapu offers one of the best sunset experiences in Andaman. Post this trip we return and drop you back at your hotel.
-                    <br><br>
-                    A Complimentary honeymoon cake is provided to our guests at Port Blair on the day of your arrival to Port Blair.                    
+                  Arrive at Port Blair in the morning/afternoon by flight and
+                  our representative will be waiting outside holding a placard
+                  with your name on it. You will then be taken to your hotel
+                  where you rest and relax.
+                  <br /><br />
+                  Later in the afternoon, we will first visit the National
+                  memorial. Cellular Jail is known for its unique jail
+                  architecture where Indian freedom fighters faced a lot of
+                  punishments from the Britishers. The struggle for Indian
+                  freedom and life of Indian freedom fighters can be learned
+                  when at this historic place.
+                  <br /><br />
+                  Later we being our journey to the best sunset point in the
+                  Andaman archipelago,
+                  <a
+                    href="https://www.experienceandamans.com/andaman-tourism/port-blair/places/chidiatapu"
+                    target="_blank"
+                    >Chidiatapu</a
+                  >. Explore the beauty of this amazing destination on the first
+                  day of your trip in the Andaman Islands. Chidiatapu offers one
+                  of the best sunset experiences in Andaman. Post this trip we
+                  return and drop you back at your hotel. <br /><br />
+                  A Complimentary honeymoon cake is provided to our guests at
+                  Port Blair on the day of your arrival to Port Blair.
                 </p>
               </div>
             </div>
             <div data-w-tab="Tab 2" class="w-tab-pane">
               <div class="w-richtext">
-                <h3>PORT BLAIR TO HAVELOCK IN CRUISE. LATER RADHANAGAR BEACH SUNSET TRIP + COMPLIMENTARY PHOTOSHOOT AND BEACH SIDE CANDLE LIT DINNER</h3>
+                <h3>
+                  PORT BLAIR TO HAVELOCK IN CRUISE. LATER RADHANAGAR BEACH
+                  SUNSET TRIP + COMPLIMENTARY PHOTOSHOOT AND BEACH SIDE CANDLE
+                  LIT DINNER
+                </h3>
                 <p>
-                    Today, we depart to the Andaman Islands' most amazing destination, <a href="//www.experienceandamans.com/andaman-tourism/havelock" target="_blank">Havelock Island</a>. This destination is rated as the best island in India. Depart from Port Blair to Havelock Island on a ferry. Upon reaching Havelock, our representative will attend to you and will drop you at your hotel. Rest and Relax in the beachside resort. Later, we begin our journey to one of Asia's best beaches, <a href="https://www.experienceandamans.com/andaman-tourism/havelock/places/radhanagar-beach" target="_blank">Radhanagar Beach</a>. Explore this white sand beach and bask in the beauty of this natural wonder. Post this we drop you back at your resort where you relax and unwind.
-                    <br><br>
-                    <strong>Note:</strong> <a href="https://www.experienceandamans.com/andaman-romantic-candle-lit-dinner" target="_blank">Candle Lit Dinner</a> by the beach will be arranged on the day of your trip. A perfect setup for honeymoon couples in Andaman.                    
+                  Today, we depart to the Andaman Islands' most amazing
+                  destination,
+                  <a
+                    href="//www.experienceandamans.com/andaman-tourism/havelock"
+                    target="_blank"
+                    >Havelock Island</a
+                  >. This destination is rated as the best island in India.
+                  Depart from Port Blair to Havelock Island on a ferry. Upon
+                  reaching Havelock, our representative will attend to you and
+                  will drop you at your hotel. Rest and Relax in the beachside
+                  resort. Later, we begin our journey to one of Asia's best
+                  beaches,
+                  <a
+                    href="https://www.experienceandamans.com/andaman-tourism/havelock/places/radhanagar-beach"
+                    target="_blank"
+                    >Radhanagar Beach</a
+                  >. Explore this white sand beach and bask in the beauty of
+                  this natural wonder. Post this we drop you back at your resort
+                  where you relax and unwind. <br /><br />
+                  <strong>Note:</strong>
+                  <a
+                    href="https://www.experienceandamans.com/andaman-romantic-candle-lit-dinner"
+                    target="_blank"
+                    >Candle Lit Dinner</a
+                  >
+                  by the beach will be arranged on the day of your trip. A
+                  perfect setup for honeymoon couples in Andaman.
                 </p>
               </div>
             </div>
             <div data-w-tab="Tab 3" class="w-tab-pane">
               <div class="w-richtext">
-                <h3>ELEPHANT BEACH BOAT RIDE TOUR AND COMPLIMENTARY SNORKELLING WITH HOTEL PICKUP AND DROP</h3>
+                <h3>
+                  ELEPHANT BEACH BOAT RIDE TOUR AND COMPLIMENTARY SNORKELLING
+                  WITH HOTEL PICKUP AND DROP
+                </h3>
                 <p>
-                    Today, we begin our journey to the most visited snorkeling destination in Havelock Island, Elephant Beach. Around 30 Minutes by boat, <a href="https://www.experienceandamans.com/andaman-tourism/havelock/places/elephant-beach" target="_blank">Elephant Beach</a> flaunts one of the best reefs on <a href="https://www.experienceandamans.com/andaman-tourism/havelock" target="_blank">Havelock Island</a>. 
-                    <br><br>
-                    The great thing is that the reef here starts at a depth of less than a meter. Upon reaching Elephant beach, we rest and relax. 
-                    <br><br>
-                    Later, a guide takes you to provide a complimentary snorkeling session at Elephant Beach (Snorkeling at Havelock Island depends upon the association guidelines). After the trip, we return back from Elephant beach to the Havelock dock in a boat. At the dock, our team attends you and drops you at your hotel.                    
+                  Today, we begin our journey to the most visited snorkeling
+                  destination in Havelock Island, Elephant Beach. Around 30
+                  Minutes by boat,
+                  <a
+                    href="https://www.experienceandamans.com/andaman-tourism/havelock/places/elephant-beach"
+                    target="_blank"
+                    >Elephant Beach</a
+                  >
+                  flaunts one of the best reefs on
+                  <a
+                    href="https://www.experienceandamans.com/andaman-tourism/havelock"
+                    target="_blank"
+                    >Havelock Island</a
+                  >. <br /><br />
+                  The great thing is that the reef here starts at a depth of
+                  less than a meter. Upon reaching Elephant beach, we rest and
+                  relax.
+                  <br /><br />
+                  Later, a guide takes you to provide a complimentary snorkeling
+                  session at Elephant Beach (Snorkeling at Havelock Island
+                  depends upon the association guidelines). After the trip, we
+                  return back from Elephant beach to the Havelock dock in a
+                  boat. At the dock, our team attends you and drops you at your
+                  hotel.
                 </p>
               </div>
             </div>
             <div data-w-tab="Tab 4" class="w-tab-pane">
               <div class="w-richtext">
-                <h3>KALAPATHAR BEACH + HAVELOCK TO PORT BLAIR IN CRUISE AND SHOPPING TRIP</h3>
+                <h3>
+                  KALAPATHAR BEACH + HAVELOCK TO PORT BLAIR IN CRUISE AND
+                  SHOPPING TRIP
+                </h3>
                 <p>
-                    Visit the amazing <a href="https://www.experienceandamans.com/andaman-tourism/havelock/places/kalapathar-beach" target="_blank">Kalapathar beach</a> on Havelock Island. Click some amazing snaps that you will love for sure. Post this trip we take a cruise back to <a href="https://www.experienceandamans.com/ferry/havelock-to-port-blair" target="_blank">Port Blair from Havelock Island</a>. Enjoy the beautiful cruise ride at the Andaman sea. After you reach back to Port Blair, our team will attend you and take you for a <a href="https://www.experienceandamans.com/andaman-tourism/port-blair/shopping" target="_blank">shopping</a> experience.
-                    Explore local shopping areas on the islands and get a beautiful experience.
-                    Purchase gifts and souvenirs for your family.
-                    Post this trip we drop you back at your hotel for an overnight stay.                    
+                  Visit the amazing
+                  <a
+                    href="https://www.experienceandamans.com/andaman-tourism/havelock/places/kalapathar-beach"
+                    target="_blank"
+                    >Kalapathar beach</a
+                  >
+                  on Havelock Island. Click some amazing snaps that you will
+                  love for sure. Post this trip we take a cruise back to
+                  <a
+                    href="https://www.experienceandamans.com/ferry/havelock-to-port-blair"
+                    target="_blank"
+                    >Port Blair from Havelock Island</a
+                  >. Enjoy the beautiful cruise ride at the Andaman sea. After
+                  you reach back to Port Blair, our team will attend you and
+                  take you for a
+                  <a
+                    href="https://www.experienceandamans.com/andaman-tourism/port-blair/shopping"
+                    target="_blank"
+                    >shopping</a
+                  >
+                  experience. Explore local shopping areas on the islands and
+                  get a beautiful experience. Purchase gifts and souvenirs for
+                  your family. Post this trip we drop you back at your hotel for
+                  an overnight stay.
                 </p>
               </div>
             </div>
             <div data-w-tab="Tab 5" class="w-tab-pane">
-                <div class="w-richtext">
-                  <h3>DROP TO THE AIRPORT</h3>
-                  <p>
-                    Check out from the hotel and proceed to the airport to return home with sweet memories of this exotic destination.
-                    Do note that hotels have an early check-out time. Guest will need to keep their luggage in the reception kiosk if your scheduled flight is in the afternoon. If you wish to visit any attraction during your free time then do let us know.                                       
-                  </p>
-                </div>
+              <div class="w-richtext">
+                <h3>DROP TO THE AIRPORT</h3>
+                <p>
+                  Check out from the hotel and proceed to the airport to return
+                  home with sweet memories of this exotic destination. Do note
+                  that hotels have an early check-out time. Guest will need to
+                  keep their luggage in the reception kiosk if your scheduled
+                  flight is in the afternoon. If you wish to visit any
+                  attraction during your free time then do let us know.
+                </p>
               </div>
+            </div>
           </div>
         </div>
       </div>
